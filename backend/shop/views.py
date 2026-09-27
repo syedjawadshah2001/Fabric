@@ -33,7 +33,7 @@ def session(request):
 def catalog(request):
     products=[]
     for p in Product.objects.filter(active=True).prefetch_related("variants"):
-        products.append({"id":p.slug,"name":p.name,"category":p.category,"fabric":p.fabric,"color":p.color,"description":p.description,"price":p.price,"image":p.image,"imagePosition":p.image_position,"badge":p.badge,"sample":p.is_sample,"variants":[{"size":v.size,"stock":v.stock} for v in p.variants.all()]})
+        products.append({"id":p.slug,"name":p.name,"category":p.category,"fabric":p.fabric,"color":p.color,"description":p.description,"price":p.price,"image":p.image,"imagePosition":p.image_position,"badge":p.badge,"sample":p.is_sample,"inquiryOnly":p.inquiry_only,"variants":[{"size":v.size,"stock":v.stock} for v in p.variants.all()]})
     return JsonResponse({"products":products})
 
 @require_POST
@@ -71,6 +71,7 @@ def create_order(request):
             for (slug,size),qty in sorted(grouped.items()):
                 variant=Variant.objects.select_for_update().select_related("product").filter(product__slug=slug,product__active=True,size=size).first()
                 if not variant: raise ValueError("An item is no longer available.")
+                if variant.product.inquiry_only: raise ValueError("Please request this design through WhatsApp so the owner can confirm availability.")
                 if variant.product.is_sample and not settings.DEBUG: raise ValueError("Sample products cannot be purchased.")
                 if Variant.objects.filter(pk=variant.pk,stock__gte=qty).update(stock=F("stock")-qty)!=1:
                     raise ValueError(f"Not enough stock for {variant.product.name} in {size}.")

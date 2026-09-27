@@ -49,3 +49,4 @@ backend/staticfiles/
 *.tsbuildinfo
 !.env.example
 /.local/
+/New folder/

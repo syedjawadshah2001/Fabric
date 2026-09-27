@@ -15,6 +15,7 @@ class Product(models.Model):
     badge = models.CharField(max_length=40, blank=True)
     active = models.BooleanField(default=True)
     is_sample = models.BooleanField(default=True)
+    inquiry_only = models.BooleanField(default=False)
     def __str__(self): return self.name
 
 class Variant(models.Model):

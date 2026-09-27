@@ -1,11 +1,13 @@
-# Original image assets
+# Catalog assets
 
-Generated with the built-in image generation tool for this website. These are concept images, not photographs of real stock.
+The 43 JPG files in public/catalog are unchanged copies of the owner's files in New folder.
+catalog_01.jpg maps to KF-V001, through catalog_43.jpg / KF-V043.
+Each is presented as unstitched velvet at Rs. 7,500. Styled outfits are reference photographs.
 
-- public/images/hero.png — Original luxury Pakistani textile campaign: adult South Asian woman in a forest green embroidered kameez, trousers and sheer dupatta in a sandstone courtyard; editorial natural light; left-side architectural space; no text or logos.
-- public/images/product-sage.png — Sage embroidered lawn three-piece concept in a warm ivory studio.
-- public/images/product-ivory.png — Ivory cotton two-piece concept in a warm taupe studio.
-- public/images/product-rose.png — Dusty rose printed lawn three-piece concept in a sandstone studio.
-- public/og.png — Complete branded social card: KAHLID FABRIC; Tradition, woven into the everyday.; ivory and forest green with sage textile detail.
+Hero carousel:
+- Burgundy: catalog_04.jpg and catalog_06.jpg
+- Emerald: catalog_22.jpg and catalog_24.jpg
+- Midnight: catalog_01.jpg and catalog_05.jpg
 
-Replace product concepts with accurate product photography before retail launch.
+Share preview uses catalog_04.jpg. No generated images are used by the current storefront.
+Earlier generated sample assets are retained in public/images but are no longer referenced.

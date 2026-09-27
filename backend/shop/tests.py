@@ -73,3 +73,13 @@ class CommerceTests(TestCase):
     def test_invalid_json(self):
         response=self.client.post("/api/orders/","[",content_type="application/json")
         self.assertEqual(response.status_code,400)
+
+    def test_whatsapp_products_do_not_create_server_orders(self):
+        self.p.inquiry_only=True
+        self.p.save()
+        response=self.post('orders',self.data)
+        self.assertEqual(response.status_code,400)
+        self.assertIn('WhatsApp',response.json()['error'])
+        self.assertEqual(Order.objects.count(),0)
+        self.v.refresh_from_db()
+        self.assertEqual(self.v.stock,3)

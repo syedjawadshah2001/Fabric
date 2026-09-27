@@ -8,8 +8,8 @@ class VariantInline(admin.TabularInline):
     extra = 0
 @admin.register(Product)
 class ProductAdmin(admin.ModelAdmin):
-    list_display = ["name","category","price","active","is_sample"]
-    list_filter = ["category","active","is_sample"]
+    list_display = ["name","category","price","active","inquiry_only"]
+    list_filter = ["category","active","inquiry_only"]
     search_fields = ["name","slug"]
     prepopulated_fields = {"slug":("name",)}
     inlines = [VariantInline]

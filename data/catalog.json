@@ -1,201 +1,904 @@
 [
   {
-    "id": "noor",
-    "name": "Noor — Embroidered Lawn",
-    "category": "Unstitched",
-    "fabric": "Lawn",
-    "color": "Sage",
-    "price": 6450,
-    "badge": "New season",
-    "description": "A soft sage three-piece lawn concept, with botanical embroidery and a light voile dupatta. Includes 2.5m shirt fabric, 2.5m trouser fabric and a 2.25m dupatta.",
-    "image": "/images/product-sage.png",
-    "imagePosition": "center",
-    "sample": true,
+    "id": "velvet-01",
+    "code": "KF-V001",
+    "name": "Midnight Velvet — 01",
+    "category": "Unstitched velvet",
+    "fabric": "Velvet",
+    "color": "Midnight",
+    "price": 7500,
+    "image": "/catalog/catalog_01.jpg",
+    "imagePosition": "center top",
+    "badge": "The velvet edit",
+    "sample": false,
+    "inquiryOnly": true,
+    "description": "Unstitched velvet in a midnight colour story, with decorative details shown in the catalog photograph. The styled outfit is a design reference; this item is supplied unstitched. Confirm the included fabric pieces, measurements and availability with Khalid before payment.",
     "variants": [
       {
         "size": "Unstitched",
-        "stock": 12
+        "stock": 0
       }
     ]
   },
   {
-    "id": "meher",
-    "name": "Meher — Everyday Cotton",
-    "category": "Ready to wear",
-    "fabric": "Cotton",
-    "color": "Ivory",
-    "price": 4890,
-    "badge": "Everyday favourite",
-    "description": "An ivory cotton two-piece concept with a relaxed kurta silhouette and straight trousers. A breathable addition to an everyday wardrobe.",
-    "image": "/images/product-ivory.png",
-    "imagePosition": "center",
-    "sample": true,
-    "variants": [
-      {
-        "size": "S",
-        "stock": 12
-      },
-      {
-        "size": "M",
-        "stock": 12
-      },
-      {
-        "size": "L",
-        "stock": 12
-      },
-      {
-        "size": "XL",
-        "stock": 12
-      }
-    ]
-  },
-  {
-    "id": "gul",
-    "name": "Gul — Printed Lawn",
-    "category": "Unstitched",
-    "fabric": "Lawn",
-    "color": "Rose",
-    "price": 3950,
-    "badge": "",
-    "description": "A dusty rose three-piece printed lawn concept. Includes 2.5m shirt fabric, 2.5m trouser fabric and a 2.25m coordinating dupatta.",
-    "image": "/images/product-rose.png",
-    "imagePosition": "center",
-    "sample": true,
+    "id": "velvet-02",
+    "code": "KF-V002",
+    "name": "Teal Velvet — 02",
+    "category": "Unstitched velvet",
+    "fabric": "Velvet",
+    "color": "Teal",
+    "price": 7500,
+    "image": "/catalog/catalog_02.jpg",
+    "imagePosition": "center top",
+    "badge": "The velvet edit",
+    "sample": false,
+    "inquiryOnly": true,
+    "description": "Unstitched velvet in a teal colour story, with decorative details shown in the catalog photograph. The styled outfit is a design reference; this item is supplied unstitched. Confirm the included fabric pieces, measurements and availability with Khalid before payment.",
     "variants": [
       {
         "size": "Unstitched",
-        "stock": 12
+        "stock": 0
       }
     ]
   },
   {
-    "id": "zariya",
-    "name": "Zariya — Evening Edit",
-    "category": "Luxury pret",
-    "fabric": "Silk blend",
-    "color": "Forest",
-    "price": 12950,
-    "badge": "Limited edit",
-    "description": "A forest-green three-piece occasion concept with delicate embroidery, fluid trousers and a sheer dupatta.",
-    "image": "/images/hero.png",
-    "imagePosition": "72% center",
-    "sample": true,
-    "variants": [
-      {
-        "size": "S",
-        "stock": 12
-      },
-      {
-        "size": "M",
-        "stock": 12
-      },
-      {
-        "size": "L",
-        "stock": 12
-      },
-      {
-        "size": "XL",
-        "stock": 12
-      }
-    ]
-  },
-  {
-    "id": "sahar",
-    "name": "Sahar — Soft Cotton",
-    "category": "Ready to wear",
-    "fabric": "Cotton",
-    "color": "Sage",
-    "price": 5450,
-    "badge": "",
-    "description": "A sage cotton two-piece concept with a relaxed neckline, full sleeves and straight trousers.",
-    "image": "/images/product-sage.png",
-    "imagePosition": "center",
-    "sample": true,
-    "variants": [
-      {
-        "size": "S",
-        "stock": 12
-      },
-      {
-        "size": "M",
-        "stock": 12
-      },
-      {
-        "size": "L",
-        "stock": 12
-      },
-      {
-        "size": "XL",
-        "stock": 12
-      }
-    ]
-  },
-  {
-    "id": "chand",
-    "name": "Chand — Festive Ivory",
-    "category": "Luxury pret",
-    "fabric": "Silk blend",
-    "color": "Ivory",
-    "price": 14900,
-    "badge": "Occasion wear",
-    "description": "An ivory three-piece festive concept featuring understated threadwork and an airy dupatta.",
-    "image": "/images/product-ivory.png",
-    "imagePosition": "center",
-    "sample": true,
-    "variants": [
-      {
-        "size": "S",
-        "stock": 12
-      },
-      {
-        "size": "M",
-        "stock": 12
-      },
-      {
-        "size": "L",
-        "stock": 12
-      },
-      {
-        "size": "XL",
-        "stock": 12
-      }
-    ]
-  },
-  {
-    "id": "rang",
-    "name": "Rang — Rose Dupatta",
-    "category": "Accessories",
-    "fabric": "Voile",
-    "color": "Rose",
-    "price": 2250,
-    "badge": "",
-    "description": "A 2.25m rose voile dupatta concept with an understated border and a soft, airy finish.",
-    "image": "/images/product-rose.png",
-    "imagePosition": "center",
-    "sample": true,
-    "variants": [
-      {
-        "size": "One size",
-        "stock": 12
-      }
-    ]
-  },
-  {
-    "id": "haya",
-    "name": "Haya — Forest Lawn",
-    "category": "Unstitched",
-    "fabric": "Lawn",
-    "color": "Forest",
-    "price": 7250,
-    "badge": "",
-    "description": "A rich green three-piece unstitched concept with botanical detail and a tonal dupatta. Shirt 2.5m, trouser 2.5m, dupatta 2.25m.",
-    "image": "/images/hero.png",
-    "imagePosition": "72% center",
-    "sample": true,
+    "id": "velvet-03",
+    "code": "KF-V003",
+    "name": "Midnight Velvet — 03",
+    "category": "Unstitched velvet",
+    "fabric": "Velvet",
+    "color": "Midnight",
+    "price": 7500,
+    "image": "/catalog/catalog_03.jpg",
+    "imagePosition": "center top",
+    "badge": "The velvet edit",
+    "sample": false,
+    "inquiryOnly": true,
+    "description": "Unstitched velvet in a midnight colour story, with decorative details shown in the catalog photograph. The styled outfit is a design reference; this item is supplied unstitched. Confirm the included fabric pieces, measurements and availability with Khalid before payment.",
     "variants": [
       {
         "size": "Unstitched",
-        "stock": 12
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "velvet-04",
+    "code": "KF-V004",
+    "name": "Burgundy Velvet — 04",
+    "category": "Unstitched velvet",
+    "fabric": "Velvet",
+    "color": "Burgundy",
+    "price": 7500,
+    "image": "/catalog/catalog_04.jpg",
+    "imagePosition": "center top",
+    "badge": "",
+    "sample": false,
+    "inquiryOnly": true,
+    "description": "Unstitched velvet in a burgundy colour story, with decorative details shown in the catalog photograph. The styled outfit is a design reference; this item is supplied unstitched. Confirm the included fabric pieces, measurements and availability with Khalid before payment.",
+    "variants": [
+      {
+        "size": "Unstitched",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "velvet-05",
+    "code": "KF-V005",
+    "name": "Midnight Velvet — 05",
+    "category": "Unstitched velvet",
+    "fabric": "Velvet",
+    "color": "Midnight",
+    "price": 7500,
+    "image": "/catalog/catalog_05.jpg",
+    "imagePosition": "center top",
+    "badge": "",
+    "sample": false,
+    "inquiryOnly": true,
+    "description": "Unstitched velvet in a midnight colour story, with decorative details shown in the catalog photograph. The styled outfit is a design reference; this item is supplied unstitched. Confirm the included fabric pieces, measurements and availability with Khalid before payment.",
+    "variants": [
+      {
+        "size": "Unstitched",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "velvet-06",
+    "code": "KF-V006",
+    "name": "Burgundy Velvet — 06",
+    "category": "Unstitched velvet",
+    "fabric": "Velvet",
+    "color": "Burgundy",
+    "price": 7500,
+    "image": "/catalog/catalog_06.jpg",
+    "imagePosition": "center top",
+    "badge": "",
+    "sample": false,
+    "inquiryOnly": true,
+    "description": "Unstitched velvet in a burgundy colour story, with decorative details shown in the catalog photograph. The styled outfit is a design reference; this item is supplied unstitched. Confirm the included fabric pieces, measurements and availability with Khalid before payment.",
+    "variants": [
+      {
+        "size": "Unstitched",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "velvet-07",
+    "code": "KF-V007",
+    "name": "Navy Velvet — 07",
+    "category": "Unstitched velvet",
+    "fabric": "Velvet",
+    "color": "Navy",
+    "price": 7500,
+    "image": "/catalog/catalog_07.jpg",
+    "imagePosition": "center top",
+    "badge": "",
+    "sample": false,
+    "inquiryOnly": true,
+    "description": "Unstitched velvet in a navy colour story, with decorative details shown in the catalog photograph. The styled outfit is a design reference; this item is supplied unstitched. Confirm the included fabric pieces, measurements and availability with Khalid before payment.",
+    "variants": [
+      {
+        "size": "Unstitched",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "velvet-08",
+    "code": "KF-V008",
+    "name": "Plum Velvet — 08",
+    "category": "Unstitched velvet",
+    "fabric": "Velvet",
+    "color": "Plum",
+    "price": 7500,
+    "image": "/catalog/catalog_08.jpg",
+    "imagePosition": "center top",
+    "badge": "",
+    "sample": false,
+    "inquiryOnly": true,
+    "description": "Unstitched velvet in a plum colour story, with decorative details shown in the catalog photograph. The styled outfit is a design reference; this item is supplied unstitched. Confirm the included fabric pieces, measurements and availability with Khalid before payment.",
+    "variants": [
+      {
+        "size": "Unstitched",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "velvet-09",
+    "code": "KF-V009",
+    "name": "Plum Velvet — 09",
+    "category": "Unstitched velvet",
+    "fabric": "Velvet",
+    "color": "Plum",
+    "price": 7500,
+    "image": "/catalog/catalog_09.jpg",
+    "imagePosition": "center top",
+    "badge": "",
+    "sample": false,
+    "inquiryOnly": true,
+    "description": "Unstitched velvet in a plum colour story, with decorative details shown in the catalog photograph. The styled outfit is a design reference; this item is supplied unstitched. Confirm the included fabric pieces, measurements and availability with Khalid before payment.",
+    "variants": [
+      {
+        "size": "Unstitched",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "velvet-10",
+    "code": "KF-V010",
+    "name": "Burgundy Velvet — 10",
+    "category": "Unstitched velvet",
+    "fabric": "Velvet",
+    "color": "Burgundy",
+    "price": 7500,
+    "image": "/catalog/catalog_10.jpg",
+    "imagePosition": "center top",
+    "badge": "",
+    "sample": false,
+    "inquiryOnly": true,
+    "description": "Unstitched velvet in a burgundy colour story, with decorative details shown in the catalog photograph. The styled outfit is a design reference; this item is supplied unstitched. Confirm the included fabric pieces, measurements and availability with Khalid before payment.",
+    "variants": [
+      {
+        "size": "Unstitched",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "velvet-11",
+    "code": "KF-V011",
+    "name": "Midnight Velvet — 11",
+    "category": "Unstitched velvet",
+    "fabric": "Velvet",
+    "color": "Midnight",
+    "price": 7500,
+    "image": "/catalog/catalog_11.jpg",
+    "imagePosition": "center top",
+    "badge": "",
+    "sample": false,
+    "inquiryOnly": true,
+    "description": "Unstitched velvet in a midnight colour story, with decorative details shown in the catalog photograph. The styled outfit is a design reference; this item is supplied unstitched. Confirm the included fabric pieces, measurements and availability with Khalid before payment.",
+    "variants": [
+      {
+        "size": "Unstitched",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "velvet-12",
+    "code": "KF-V012",
+    "name": "Navy Velvet — 12",
+    "category": "Unstitched velvet",
+    "fabric": "Velvet",
+    "color": "Navy",
+    "price": 7500,
+    "image": "/catalog/catalog_12.jpg",
+    "imagePosition": "center top",
+    "badge": "",
+    "sample": false,
+    "inquiryOnly": true,
+    "description": "Unstitched velvet in a navy colour story, with decorative details shown in the catalog photograph. The styled outfit is a design reference; this item is supplied unstitched. Confirm the included fabric pieces, measurements and availability with Khalid before payment.",
+    "variants": [
+      {
+        "size": "Unstitched",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "velvet-13",
+    "code": "KF-V013",
+    "name": "Teal Velvet — 13",
+    "category": "Unstitched velvet",
+    "fabric": "Velvet",
+    "color": "Teal",
+    "price": 7500,
+    "image": "/catalog/catalog_13.jpg",
+    "imagePosition": "center top",
+    "badge": "",
+    "sample": false,
+    "inquiryOnly": true,
+    "description": "Unstitched velvet in a teal colour story, with decorative details shown in the catalog photograph. The styled outfit is a design reference; this item is supplied unstitched. Confirm the included fabric pieces, measurements and availability with Khalid before payment.",
+    "variants": [
+      {
+        "size": "Unstitched",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "velvet-14",
+    "code": "KF-V014",
+    "name": "Plum Velvet — 14",
+    "category": "Unstitched velvet",
+    "fabric": "Velvet",
+    "color": "Plum",
+    "price": 7500,
+    "image": "/catalog/catalog_14.jpg",
+    "imagePosition": "center top",
+    "badge": "",
+    "sample": false,
+    "inquiryOnly": true,
+    "description": "Unstitched velvet in a plum colour story, with decorative details shown in the catalog photograph. The styled outfit is a design reference; this item is supplied unstitched. Confirm the included fabric pieces, measurements and availability with Khalid before payment.",
+    "variants": [
+      {
+        "size": "Unstitched",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "velvet-15",
+    "code": "KF-V015",
+    "name": "Burgundy Velvet — 15",
+    "category": "Unstitched velvet",
+    "fabric": "Velvet",
+    "color": "Burgundy",
+    "price": 7500,
+    "image": "/catalog/catalog_15.jpg",
+    "imagePosition": "center top",
+    "badge": "",
+    "sample": false,
+    "inquiryOnly": true,
+    "description": "Unstitched velvet in a burgundy colour story, with decorative details shown in the catalog photograph. The styled outfit is a design reference; this item is supplied unstitched. Confirm the included fabric pieces, measurements and availability with Khalid before payment.",
+    "variants": [
+      {
+        "size": "Unstitched",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "velvet-16",
+    "code": "KF-V016",
+    "name": "Plum Velvet — 16",
+    "category": "Unstitched velvet",
+    "fabric": "Velvet",
+    "color": "Plum",
+    "price": 7500,
+    "image": "/catalog/catalog_16.jpg",
+    "imagePosition": "center top",
+    "badge": "",
+    "sample": false,
+    "inquiryOnly": true,
+    "description": "Unstitched velvet in a plum colour story, with decorative details shown in the catalog photograph. The styled outfit is a design reference; this item is supplied unstitched. Confirm the included fabric pieces, measurements and availability with Khalid before payment.",
+    "variants": [
+      {
+        "size": "Unstitched",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "velvet-17",
+    "code": "KF-V017",
+    "name": "Plum Velvet — 17",
+    "category": "Unstitched velvet",
+    "fabric": "Velvet",
+    "color": "Plum",
+    "price": 7500,
+    "image": "/catalog/catalog_17.jpg",
+    "imagePosition": "center top",
+    "badge": "",
+    "sample": false,
+    "inquiryOnly": true,
+    "description": "Unstitched velvet in a plum colour story, with decorative details shown in the catalog photograph. The styled outfit is a design reference; this item is supplied unstitched. Confirm the included fabric pieces, measurements and availability with Khalid before payment.",
+    "variants": [
+      {
+        "size": "Unstitched",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "velvet-18",
+    "code": "KF-V018",
+    "name": "Navy Velvet — 18",
+    "category": "Unstitched velvet",
+    "fabric": "Velvet",
+    "color": "Navy",
+    "price": 7500,
+    "image": "/catalog/catalog_18.jpg",
+    "imagePosition": "center top",
+    "badge": "",
+    "sample": false,
+    "inquiryOnly": true,
+    "description": "Unstitched velvet in a navy colour story, with decorative details shown in the catalog photograph. The styled outfit is a design reference; this item is supplied unstitched. Confirm the included fabric pieces, measurements and availability with Khalid before payment.",
+    "variants": [
+      {
+        "size": "Unstitched",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "velvet-19",
+    "code": "KF-V019",
+    "name": "Teal Velvet — 19",
+    "category": "Unstitched velvet",
+    "fabric": "Velvet",
+    "color": "Teal",
+    "price": 7500,
+    "image": "/catalog/catalog_19.jpg",
+    "imagePosition": "center top",
+    "badge": "",
+    "sample": false,
+    "inquiryOnly": true,
+    "description": "Unstitched velvet in a teal colour story, with decorative details shown in the catalog photograph. The styled outfit is a design reference; this item is supplied unstitched. Confirm the included fabric pieces, measurements and availability with Khalid before payment.",
+    "variants": [
+      {
+        "size": "Unstitched",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "velvet-20",
+    "code": "KF-V020",
+    "name": "Midnight Velvet — 20",
+    "category": "Unstitched velvet",
+    "fabric": "Velvet",
+    "color": "Midnight",
+    "price": 7500,
+    "image": "/catalog/catalog_20.jpg",
+    "imagePosition": "center top",
+    "badge": "",
+    "sample": false,
+    "inquiryOnly": true,
+    "description": "Unstitched velvet in a midnight colour story, with decorative details shown in the catalog photograph. The styled outfit is a design reference; this item is supplied unstitched. Confirm the included fabric pieces, measurements and availability with Khalid before payment.",
+    "variants": [
+      {
+        "size": "Unstitched",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "velvet-21",
+    "code": "KF-V021",
+    "name": "Burgundy Velvet — 21",
+    "category": "Unstitched velvet",
+    "fabric": "Velvet",
+    "color": "Burgundy",
+    "price": 7500,
+    "image": "/catalog/catalog_21.jpg",
+    "imagePosition": "center top",
+    "badge": "",
+    "sample": false,
+    "inquiryOnly": true,
+    "description": "Unstitched velvet in a burgundy colour story, with decorative details shown in the catalog photograph. The styled outfit is a design reference; this item is supplied unstitched. Confirm the included fabric pieces, measurements and availability with Khalid before payment.",
+    "variants": [
+      {
+        "size": "Unstitched",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "velvet-22",
+    "code": "KF-V022",
+    "name": "Emerald Velvet — 22",
+    "category": "Unstitched velvet",
+    "fabric": "Velvet",
+    "color": "Emerald",
+    "price": 7500,
+    "image": "/catalog/catalog_22.jpg",
+    "imagePosition": "center top",
+    "badge": "",
+    "sample": false,
+    "inquiryOnly": true,
+    "description": "Unstitched velvet in a emerald colour story, with decorative details shown in the catalog photograph. The styled outfit is a design reference; this item is supplied unstitched. Confirm the included fabric pieces, measurements and availability with Khalid before payment.",
+    "variants": [
+      {
+        "size": "Unstitched",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "velvet-23",
+    "code": "KF-V023",
+    "name": "Navy Velvet — 23",
+    "category": "Unstitched velvet",
+    "fabric": "Velvet",
+    "color": "Navy",
+    "price": 7500,
+    "image": "/catalog/catalog_23.jpg",
+    "imagePosition": "center top",
+    "badge": "",
+    "sample": false,
+    "inquiryOnly": true,
+    "description": "Unstitched velvet in a navy colour story, with decorative details shown in the catalog photograph. The styled outfit is a design reference; this item is supplied unstitched. Confirm the included fabric pieces, measurements and availability with Khalid before payment.",
+    "variants": [
+      {
+        "size": "Unstitched",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "velvet-24",
+    "code": "KF-V024",
+    "name": "Emerald Velvet — 24",
+    "category": "Unstitched velvet",
+    "fabric": "Velvet",
+    "color": "Emerald",
+    "price": 7500,
+    "image": "/catalog/catalog_24.jpg",
+    "imagePosition": "center top",
+    "badge": "",
+    "sample": false,
+    "inquiryOnly": true,
+    "description": "Unstitched velvet in a emerald colour story, with decorative details shown in the catalog photograph. The styled outfit is a design reference; this item is supplied unstitched. Confirm the included fabric pieces, measurements and availability with Khalid before payment.",
+    "variants": [
+      {
+        "size": "Unstitched",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "velvet-25",
+    "code": "KF-V025",
+    "name": "Midnight Velvet — 25",
+    "category": "Unstitched velvet",
+    "fabric": "Velvet",
+    "color": "Midnight",
+    "price": 7500,
+    "image": "/catalog/catalog_25.jpg",
+    "imagePosition": "center top",
+    "badge": "",
+    "sample": false,
+    "inquiryOnly": true,
+    "description": "Unstitched velvet in a midnight colour story, with decorative details shown in the catalog photograph. The styled outfit is a design reference; this item is supplied unstitched. Confirm the included fabric pieces, measurements and availability with Khalid before payment.",
+    "variants": [
+      {
+        "size": "Unstitched",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "velvet-26",
+    "code": "KF-V026",
+    "name": "Plum Velvet — 26",
+    "category": "Unstitched velvet",
+    "fabric": "Velvet",
+    "color": "Plum",
+    "price": 7500,
+    "image": "/catalog/catalog_26.jpg",
+    "imagePosition": "center top",
+    "badge": "",
+    "sample": false,
+    "inquiryOnly": true,
+    "description": "Unstitched velvet in a plum colour story, with decorative details shown in the catalog photograph. The styled outfit is a design reference; this item is supplied unstitched. Confirm the included fabric pieces, measurements and availability with Khalid before payment.",
+    "variants": [
+      {
+        "size": "Unstitched",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "velvet-27",
+    "code": "KF-V027",
+    "name": "Plum Velvet — 27",
+    "category": "Unstitched velvet",
+    "fabric": "Velvet",
+    "color": "Plum",
+    "price": 7500,
+    "image": "/catalog/catalog_27.jpg",
+    "imagePosition": "center top",
+    "badge": "",
+    "sample": false,
+    "inquiryOnly": true,
+    "description": "Unstitched velvet in a plum colour story, with decorative details shown in the catalog photograph. The styled outfit is a design reference; this item is supplied unstitched. Confirm the included fabric pieces, measurements and availability with Khalid before payment.",
+    "variants": [
+      {
+        "size": "Unstitched",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "velvet-28",
+    "code": "KF-V028",
+    "name": "Midnight Velvet — 28",
+    "category": "Unstitched velvet",
+    "fabric": "Velvet",
+    "color": "Midnight",
+    "price": 7500,
+    "image": "/catalog/catalog_28.jpg",
+    "imagePosition": "center top",
+    "badge": "",
+    "sample": false,
+    "inquiryOnly": true,
+    "description": "Unstitched velvet in a midnight colour story, with decorative details shown in the catalog photograph. The styled outfit is a design reference; this item is supplied unstitched. Confirm the included fabric pieces, measurements and availability with Khalid before payment.",
+    "variants": [
+      {
+        "size": "Unstitched",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "velvet-29",
+    "code": "KF-V029",
+    "name": "Plum Velvet — 29",
+    "category": "Unstitched velvet",
+    "fabric": "Velvet",
+    "color": "Plum",
+    "price": 7500,
+    "image": "/catalog/catalog_29.jpg",
+    "imagePosition": "center top",
+    "badge": "",
+    "sample": false,
+    "inquiryOnly": true,
+    "description": "Unstitched velvet in a plum colour story, with decorative details shown in the catalog photograph. The styled outfit is a design reference; this item is supplied unstitched. Confirm the included fabric pieces, measurements and availability with Khalid before payment.",
+    "variants": [
+      {
+        "size": "Unstitched",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "velvet-30",
+    "code": "KF-V030",
+    "name": "Teal Velvet — 30",
+    "category": "Unstitched velvet",
+    "fabric": "Velvet",
+    "color": "Teal",
+    "price": 7500,
+    "image": "/catalog/catalog_30.jpg",
+    "imagePosition": "center top",
+    "badge": "",
+    "sample": false,
+    "inquiryOnly": true,
+    "description": "Unstitched velvet in a teal colour story, with decorative details shown in the catalog photograph. The styled outfit is a design reference; this item is supplied unstitched. Confirm the included fabric pieces, measurements and availability with Khalid before payment.",
+    "variants": [
+      {
+        "size": "Unstitched",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "velvet-31",
+    "code": "KF-V031",
+    "name": "Plum Velvet — 31",
+    "category": "Unstitched velvet",
+    "fabric": "Velvet",
+    "color": "Plum",
+    "price": 7500,
+    "image": "/catalog/catalog_31.jpg",
+    "imagePosition": "center top",
+    "badge": "",
+    "sample": false,
+    "inquiryOnly": true,
+    "description": "Unstitched velvet in a plum colour story, with decorative details shown in the catalog photograph. The styled outfit is a design reference; this item is supplied unstitched. Confirm the included fabric pieces, measurements and availability with Khalid before payment.",
+    "variants": [
+      {
+        "size": "Unstitched",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "velvet-32",
+    "code": "KF-V032",
+    "name": "Navy Velvet — 32",
+    "category": "Unstitched velvet",
+    "fabric": "Velvet",
+    "color": "Navy",
+    "price": 7500,
+    "image": "/catalog/catalog_32.jpg",
+    "imagePosition": "center top",
+    "badge": "",
+    "sample": false,
+    "inquiryOnly": true,
+    "description": "Unstitched velvet in a navy colour story, with decorative details shown in the catalog photograph. The styled outfit is a design reference; this item is supplied unstitched. Confirm the included fabric pieces, measurements and availability with Khalid before payment.",
+    "variants": [
+      {
+        "size": "Unstitched",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "velvet-33",
+    "code": "KF-V033",
+    "name": "Navy Velvet — 33",
+    "category": "Unstitched velvet",
+    "fabric": "Velvet",
+    "color": "Navy",
+    "price": 7500,
+    "image": "/catalog/catalog_33.jpg",
+    "imagePosition": "center top",
+    "badge": "",
+    "sample": false,
+    "inquiryOnly": true,
+    "description": "Unstitched velvet in a navy colour story, with decorative details shown in the catalog photograph. The styled outfit is a design reference; this item is supplied unstitched. Confirm the included fabric pieces, measurements and availability with Khalid before payment.",
+    "variants": [
+      {
+        "size": "Unstitched",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "velvet-34",
+    "code": "KF-V034",
+    "name": "Teal Velvet — 34",
+    "category": "Unstitched velvet",
+    "fabric": "Velvet",
+    "color": "Teal",
+    "price": 7500,
+    "image": "/catalog/catalog_34.jpg",
+    "imagePosition": "center top",
+    "badge": "",
+    "sample": false,
+    "inquiryOnly": true,
+    "description": "Unstitched velvet in a teal colour story, with decorative details shown in the catalog photograph. The styled outfit is a design reference; this item is supplied unstitched. Confirm the included fabric pieces, measurements and availability with Khalid before payment.",
+    "variants": [
+      {
+        "size": "Unstitched",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "velvet-35",
+    "code": "KF-V035",
+    "name": "Midnight Velvet — 35",
+    "category": "Unstitched velvet",
+    "fabric": "Velvet",
+    "color": "Midnight",
+    "price": 7500,
+    "image": "/catalog/catalog_35.jpg",
+    "imagePosition": "center top",
+    "badge": "",
+    "sample": false,
+    "inquiryOnly": true,
+    "description": "Unstitched velvet in a midnight colour story, with decorative details shown in the catalog photograph. The styled outfit is a design reference; this item is supplied unstitched. Confirm the included fabric pieces, measurements and availability with Khalid before payment.",
+    "variants": [
+      {
+        "size": "Unstitched",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "velvet-36",
+    "code": "KF-V036",
+    "name": "Plum Velvet — 36",
+    "category": "Unstitched velvet",
+    "fabric": "Velvet",
+    "color": "Plum",
+    "price": 7500,
+    "image": "/catalog/catalog_36.jpg",
+    "imagePosition": "center top",
+    "badge": "",
+    "sample": false,
+    "inquiryOnly": true,
+    "description": "Unstitched velvet in a plum colour story, with decorative details shown in the catalog photograph. The styled outfit is a design reference; this item is supplied unstitched. Confirm the included fabric pieces, measurements and availability with Khalid before payment.",
+    "variants": [
+      {
+        "size": "Unstitched",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "velvet-37",
+    "code": "KF-V037",
+    "name": "Plum Velvet — 37",
+    "category": "Unstitched velvet",
+    "fabric": "Velvet",
+    "color": "Plum",
+    "price": 7500,
+    "image": "/catalog/catalog_37.jpg",
+    "imagePosition": "center top",
+    "badge": "",
+    "sample": false,
+    "inquiryOnly": true,
+    "description": "Unstitched velvet in a plum colour story, with decorative details shown in the catalog photograph. The styled outfit is a design reference; this item is supplied unstitched. Confirm the included fabric pieces, measurements and availability with Khalid before payment.",
+    "variants": [
+      {
+        "size": "Unstitched",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "velvet-38",
+    "code": "KF-V038",
+    "name": "Burgundy Velvet — 38",
+    "category": "Unstitched velvet",
+    "fabric": "Velvet",
+    "color": "Burgundy",
+    "price": 7500,
+    "image": "/catalog/catalog_38.jpg",
+    "imagePosition": "center top",
+    "badge": "",
+    "sample": false,
+    "inquiryOnly": true,
+    "description": "Unstitched velvet in a burgundy colour story, with decorative details shown in the catalog photograph. The styled outfit is a design reference; this item is supplied unstitched. Confirm the included fabric pieces, measurements and availability with Khalid before payment.",
+    "variants": [
+      {
+        "size": "Unstitched",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "velvet-39",
+    "code": "KF-V039",
+    "name": "Plum Velvet — 39",
+    "category": "Unstitched velvet",
+    "fabric": "Velvet",
+    "color": "Plum",
+    "price": 7500,
+    "image": "/catalog/catalog_39.jpg",
+    "imagePosition": "center top",
+    "badge": "",
+    "sample": false,
+    "inquiryOnly": true,
+    "description": "Unstitched velvet in a plum colour story, with decorative details shown in the catalog photograph. The styled outfit is a design reference; this item is supplied unstitched. Confirm the included fabric pieces, measurements and availability with Khalid before payment.",
+    "variants": [
+      {
+        "size": "Unstitched",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "velvet-40",
+    "code": "KF-V040",
+    "name": "Plum Velvet — 40",
+    "category": "Unstitched velvet",
+    "fabric": "Velvet",
+    "color": "Plum",
+    "price": 7500,
+    "image": "/catalog/catalog_40.jpg",
+    "imagePosition": "center top",
+    "badge": "",
+    "sample": false,
+    "inquiryOnly": true,
+    "description": "Unstitched velvet in a plum colour story, with decorative details shown in the catalog photograph. The styled outfit is a design reference; this item is supplied unstitched. Confirm the included fabric pieces, measurements and availability with Khalid before payment.",
+    "variants": [
+      {
+        "size": "Unstitched",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "velvet-41",
+    "code": "KF-V041",
+    "name": "Burgundy Velvet — 41",
+    "category": "Unstitched velvet",
+    "fabric": "Velvet",
+    "color": "Burgundy",
+    "price": 7500,
+    "image": "/catalog/catalog_41.jpg",
+    "imagePosition": "center top",
+    "badge": "",
+    "sample": false,
+    "inquiryOnly": true,
+    "description": "Unstitched velvet in a burgundy colour story, with decorative details shown in the catalog photograph. The styled outfit is a design reference; this item is supplied unstitched. Confirm the included fabric pieces, measurements and availability with Khalid before payment.",
+    "variants": [
+      {
+        "size": "Unstitched",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "velvet-42",
+    "code": "KF-V042",
+    "name": "Midnight Velvet — 42",
+    "category": "Unstitched velvet",
+    "fabric": "Velvet",
+    "color": "Midnight",
+    "price": 7500,
+    "image": "/catalog/catalog_42.jpg",
+    "imagePosition": "center top",
+    "badge": "",
+    "sample": false,
+    "inquiryOnly": true,
+    "description": "Unstitched velvet in a midnight colour story, with decorative details shown in the catalog photograph. The styled outfit is a design reference; this item is supplied unstitched. Confirm the included fabric pieces, measurements and availability with Khalid before payment.",
+    "variants": [
+      {
+        "size": "Unstitched",
+        "stock": 0
+      }
+    ]
+  },
+  {
+    "id": "velvet-43",
+    "code": "KF-V043",
+    "name": "Plum Velvet — 43",
+    "category": "Unstitched velvet",
+    "fabric": "Velvet",
+    "color": "Plum",
+    "price": 7500,
+    "image": "/catalog/catalog_43.jpg",
+    "imagePosition": "center top",
+    "badge": "",
+    "sample": false,
+    "inquiryOnly": true,
+    "description": "Unstitched velvet in a plum colour story, with decorative details shown in the catalog photograph. The styled outfit is a design reference; this item is supplied unstitched. Confirm the included fabric pieces, measurements and availability with Khalid before payment.",
+    "variants": [
+      {
+        "size": "Unstitched",
+        "stock": 0
       }
     ]
   }
