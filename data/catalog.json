@@ -1,0 +1,202 @@
+[
+  {
+    "id": "noor",
+    "name": "Noor — Embroidered Lawn",
+    "category": "Unstitched",
+    "fabric": "Lawn",
+    "color": "Sage",
+    "price": 6450,
+    "badge": "New season",
+    "description": "A soft sage three-piece lawn concept, with botanical embroidery and a light voile dupatta. Includes 2.5m shirt fabric, 2.5m trouser fabric and a 2.25m dupatta.",
+    "image": "/images/product-sage.png",
+    "imagePosition": "center",
+    "sample": true,
+    "variants": [
+      {
+        "size": "Unstitched",
+        "stock": 12
+      }
+    ]
+  },
+  {
+    "id": "meher",
+    "name": "Meher — Everyday Cotton",
+    "category": "Ready to wear",
+    "fabric": "Cotton",
+    "color": "Ivory",
+    "price": 4890,
+    "badge": "Everyday favourite",
+    "description": "An ivory cotton two-piece concept with a relaxed kurta silhouette and straight trousers. A breathable addition to an everyday wardrobe.",
+    "image": "/images/product-ivory.png",
+    "imagePosition": "center",
+    "sample": true,
+    "variants": [
+      {
+        "size": "S",
+        "stock": 12
+      },
+      {
+        "size": "M",
+        "stock": 12
+      },
+      {
+        "size": "L",
+        "stock": 12
+      },
+      {
+        "size": "XL",
+        "stock": 12
+      }
+    ]
+  },
+  {
+    "id": "gul",
+    "name": "Gul — Printed Lawn",
+    "category": "Unstitched",
+    "fabric": "Lawn",
+    "color": "Rose",
+    "price": 3950,
+    "badge": "",
+    "description": "A dusty rose three-piece printed lawn concept. Includes 2.5m shirt fabric, 2.5m trouser fabric and a 2.25m coordinating dupatta.",
+    "image": "/images/product-rose.png",
+    "imagePosition": "center",
+    "sample": true,
+    "variants": [
+      {
+        "size": "Unstitched",
+        "stock": 12
+      }
+    ]
+  },
+  {
+    "id": "zariya",
+    "name": "Zariya — Evening Edit",
+    "category": "Luxury pret",
+    "fabric": "Silk blend",
+    "color": "Forest",
+    "price": 12950,
+    "badge": "Limited edit",
+    "description": "A forest-green three-piece occasion concept with delicate embroidery, fluid trousers and a sheer dupatta.",
+    "image": "/images/hero.png",
+    "imagePosition": "72% center",
+    "sample": true,
+    "variants": [
+      {
+        "size": "S",
+        "stock": 12
+      },
+      {
+        "size": "M",
+        "stock": 12
+      },
+      {
+        "size": "L",
+        "stock": 12
+      },
+      {
+        "size": "XL",
+        "stock": 12
+      }
+    ]
+  },
+  {
+    "id": "sahar",
+    "name": "Sahar — Soft Cotton",
+    "category": "Ready to wear",
+    "fabric": "Cotton",
+    "color": "Sage",
+    "price": 5450,
+    "badge": "",
+    "description": "A sage cotton two-piece concept with a relaxed neckline, full sleeves and straight trousers.",
+    "image": "/images/product-sage.png",
+    "imagePosition": "center",
+    "sample": true,
+    "variants": [
+      {
+        "size": "S",
+        "stock": 12
+      },
+      {
+        "size": "M",
+        "stock": 12
+      },
+      {
+        "size": "L",
+        "stock": 12
+      },
+      {
+        "size": "XL",
+        "stock": 12
+      }
+    ]
+  },
+  {
+    "id": "chand",
+    "name": "Chand — Festive Ivory",
+    "category": "Luxury pret",
+    "fabric": "Silk blend",
+    "color": "Ivory",
+    "price": 14900,
+    "badge": "Occasion wear",
+    "description": "An ivory three-piece festive concept featuring understated threadwork and an airy dupatta.",
+    "image": "/images/product-ivory.png",
+    "imagePosition": "center",
+    "sample": true,
+    "variants": [
+      {
+        "size": "S",
+        "stock": 12
+      },
+      {
+        "size": "M",
+        "stock": 12
+      },
+      {
+        "size": "L",
+        "stock": 12
+      },
+      {
+        "size": "XL",
+        "stock": 12
+      }
+    ]
+  },
+  {
+    "id": "rang",
+    "name": "Rang — Rose Dupatta",
+    "category": "Accessories",
+    "fabric": "Voile",
+    "color": "Rose",
+    "price": 2250,
+    "badge": "",
+    "description": "A 2.25m rose voile dupatta concept with an understated border and a soft, airy finish.",
+    "image": "/images/product-rose.png",
+    "imagePosition": "center",
+    "sample": true,
+    "variants": [
+      {
+        "size": "One size",
+        "stock": 12
+      }
+    ]
+  },
+  {
+    "id": "haya",
+    "name": "Haya — Forest Lawn",
+    "category": "Unstitched",
+    "fabric": "Lawn",
+    "color": "Forest",
+    "price": 7250,
+    "badge": "",
+    "description": "A rich green three-piece unstitched concept with botanical detail and a tonal dupatta. Shirt 2.5m, trouser 2.5m, dupatta 2.25m.",
+    "image": "/images/hero.png",
+    "imagePosition": "72% center",
+    "sample": true,
+    "variants": [
+      {
+        "size": "Unstitched",
+        "stock": 12
+      }
+    ]
+  }
+]
