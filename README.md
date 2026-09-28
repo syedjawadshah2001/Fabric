@@ -8,9 +8,9 @@ From PowerShell:
 cd "G:\Khalid Fabric"
 npm.cmd run dev
 ```
-Open http://localhost:3000. The storefront, cart, wishlist and WhatsApp checkout work without Django, an API subscription, or payment-gateway credentials.
+Open http://localhost:3000. Browsing and wishlists work immediately. Start Django as well for signup/login and adding products to the bag. WhatsApp ordering needs no paid API subscription.
 
-For Django catalog management as well:
+To run the complete store with customer accounts and Django administration:
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\scripts\start-local.ps1
 ```
@@ -54,12 +54,26 @@ npx.cmd tsc --noEmit
 npm.cmd run build
 python scripts/smoke_test.py
 ```
-The smoke test needs a local React server; Django is optional for the WhatsApp flow.
+The smoke test needs a local React server; Django is required for customer login and adding products to the bag.
 Automated tests do not send WhatsApp messages.
 
 ## Deployment
 The existing Sites private deployment is retained. The React frontend is built for Cloudflare Workers through vinext.
-WhatsApp checkout works on the hosted frontend without a Python host.
+Public catalog browsing works without a Python host. Customer accounts and Add to bag require Django through COMMERCE_API_URL.
 Django administration remains local unless separately deployed to a Python-capable HTTPS host with persistent database storage.
 The site remains private until its owner chooses a public launch.
 Business information not supplied by the owner has not been invented.
+
+
+## Customer accounts
+Browsing is public. Add to bag checks the Django session and opens login/signup when needed.
+Successful login/signup adds the selected design and quantity without leaving the page.
+Email verification is intentionally omitted. Passwords use Django hashing and validation;
+sessions use HTTP-only cookies and mutations require CSRF tokens. Customer accounts have no admin permissions.
+Account pages: /account, /login and /signup. Django admin can manage customers under Users.
+The bag and wishlist are local to the browser, not synchronized across devices.
+Password reset and email delivery are not implemented.
+Run both frontend and Django for login/signup; scripts/start-local.ps1 starts both.
+For production, configure HTTPS, secure Django settings, a persistent database, and a shared
+cache/reverse-proxy rate limiter. The development rate limit is process-local and the frontend
+proxy shares one backend IP; configure production limits for real customer traffic before launch.

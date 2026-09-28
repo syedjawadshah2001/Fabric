@@ -22,9 +22,14 @@ export default function HeroCarousel(){
   const id=setInterval(()=>{if(!document.hidden)setIndex(i=>(i+1)%slides.length);},6500);
   return()=>clearInterval(id);
  },[playing,interacting,reduced]);
- const move=(delta:number)=>setIndex(i=>(i+delta+slides.length)%slides.length);
+ useEffect(()=>{
+  const timer=window.setTimeout(()=>{for(const src of slides[(index+1)%slides.length].images){const img=new Image();img.src=src;}},1200);
+  return()=>window.clearTimeout(timer);
+ },[index]);
+ const move=(delta:number)=>{setIndex(i=>(i+delta+slides.length)%slides.length);setPlaying(false);};
  const slide=slides[index];
- return <section className="hero-carousel" aria-roledescription="carousel" aria-label="Featured velvet collections"
+ return <section className="hero-carousel" aria-roledescription="carousel" aria-label="Featured velvet collections" tabIndex={0}
+ onKeyDown={e=>{if(e.target===e.currentTarget&&(e.key==="ArrowLeft"||e.key==="ArrowRight")){e.preventDefault();move(e.key==="ArrowRight"?1:-1);}}}
  onMouseEnter={()=>setInteracting(true)} onMouseLeave={()=>setInteracting(false)}
  onFocusCapture={()=>setInteracting(true)} onBlurCapture={e=>{if(!e.currentTarget.contains(e.relatedTarget))setInteracting(false);}}
  onTouchStart={e=>{touch.current={x:e.touches[0].clientX,y:e.touches[0].clientY};}}
@@ -33,6 +38,6 @@ export default function HeroCarousel(){
   <div className="hero-copy"><span className="eyebrow"><i/> {slide.eyebrow} — 2026</span><h1>{slide.title}<br/><em>{slide.accent}</em></h1><p>{slide.description}</p><div className="hero-ctas"><a href={slide.href} className="button">Discover the edit <span>↗</span></a><span className="hero-price">Every design<strong>Rs. 7,500</strong></span></div><div className="hero-footnote"><span className="mini-line"/> UNSTITCHED. UNCOMPROMISINGLY YOU.</div></div>
   <div className="hero-art"><span className="hero-watermark">VELVET</span><div className="hero-frame hero-frame-back"><img src={slide.images[1]} alt={slide.color+" unstitched velvet catalog design, styled for reference"} fetchPriority={index===0?"high":"auto"}/></div><div className="hero-frame hero-frame-front"><img src={slide.images[0]} alt={slide.color+" velvet embroidery and styling reference"} fetchPriority={index===0?"high":"auto"}/><span>{slide.color.toUpperCase()} / THE OCCASION EDIT</span></div><div className="hero-stamp"><span>43 DESIGNS</span><b>One beautiful<br/>collection.</b><span>KAHLID FABRIC</span></div></div>
  </div>
- <div className="hero-controls"><div className="slide-dots" aria-label="Choose a collection">{slides.map((s,i)=><button key={s.color} className={index===i?"active":""} aria-label={"Show "+s.color+" collection"} aria-current={index===i?"true":undefined} onClick={()=>setIndex(i)}><span>0{i+1}</span><i/></button>)}</div><div className="slide-buttons"><span>{String(index+1).padStart(2,"0")} <i>/ 03</i></span><button aria-label="Previous collection" onClick={()=>move(-1)}>←</button><button aria-label="Next collection" onClick={()=>move(1)}>→</button><button className="pause" aria-label={playing?"Pause automatic slideshow":"Play automatic slideshow"} onClick={()=>setPlaying(!playing)} disabled={reduced}>{playing&&!reduced?"Ⅱ":"▷"}</button></div></div>
+ <div className="hero-controls"><div className="slide-dots" aria-label="Choose a collection">{slides.map((s,i)=><button key={s.color} className={index===i?"active":""} aria-label={"Show "+s.color+" collection"} aria-current={index===i?"true":undefined} onClick={()=>{setIndex(i);setPlaying(false);}}><span>0{i+1}</span><i/><span className="carousel-caption">{s.color}</span></button>)}</div><div className="slide-buttons"><span>{String(index+1).padStart(2,"0")} <i>/ 03</i></span><button aria-label="Previous collection" onClick={()=>move(-1)}>←</button><button aria-label="Next collection" onClick={()=>move(1)}>→</button><button className="pause" aria-label={playing?"Pause automatic slideshow":"Play automatic slideshow"} onClick={()=>setPlaying(!playing)} disabled={reduced}>{playing&&!reduced?"Ⅱ":"▷"}</button></div></div>
  </section>;
 }

@@ -1,7 +1,7 @@
 import { NextRequest } from "next/server";
 async function forward(request: NextRequest, context: { params: Promise<{path:string[]}> }) {
   const {path} = await context.params;
-  const allowed = ["catalog","session","orders","track","newsletter","contact"];
+  const allowed = ["account","signup","login","logout","catalog","session","orders","track","newsletter","contact"];
   if(path.length!==1 || !allowed.includes(path[0])) return Response.json({error:"Not found"},{status:404});
   const origin = process.env.COMMERCE_API_URL || "http://127.0.0.1:8000";
   const headers = new Headers();
@@ -18,7 +18,7 @@ async function forward(request: NextRequest, context: { params: Promise<{path:st
     for(const cookie of upstream.headers.getSetCookie()) responseHeaders.append("Set-Cookie",cookie);
     return new Response(await upstream.text(),{status:upstream.status,headers:responseHeaders});
   } catch {
-    return Response.json({error:"Our order service is temporarily unavailable. Please try again shortly."},{status:503});
+    return Response.json({error:"Our store service is temporarily unavailable. Please try again shortly."},{status:503});
   }
 }
 export const GET=forward;
